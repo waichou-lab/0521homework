@@ -1,0 +1,25 @@
+PS C:\Users\www14\OneDrive\桌面\0521> & C:\Users\www14\AppData\Local\Programs\Python\Python312\python.exe c:/Users/www14/OneDrive/桌面/0521/homework.py
+C:\Users\www14\AppData\Roaming\Python\Python312\site-packages\scipy\sparse\_index.py:151: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil and dok are more efficient.
+  self._set_arrayXarray(i, j, x)
+空間測試: N=8, dt=1.56e-02
+空間測試: N=16, dt=3.91e-03
+空間測試: N=32, dt=9.77e-04
+空間測試: N=64, dt=2.44e-04
+
+空間收斂表:
+N        h       L2 error        L2 rate         H1 error        H1 rate
+8        0.1250  1.70e-03        -               3.07e-02        -
+16       0.0625  4.08e-04        2.06            7.76e-03        1.98
+32       0.0312  1.00e-04        2.03            1.94e-03        2.00
+64       0.0156  2.49e-05        2.01            4.86e-04        2.00
+時間測試: dt=1.00e-01, N=128
+時間測試: dt=5.00e-02, N=128
+時間測試: dt=2.50e-02, N=128
+時間測試: dt=1.25e-02, N=128
+
+時間收斂表:
+dt       L2 error        rate
+0.1      8.74e-05        -
+0.05     2.52e-05        1.79
+0.025    1.03e-05        1.29
+0.0125   7.09e-06        0.54
